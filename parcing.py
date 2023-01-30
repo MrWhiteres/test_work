@@ -10,7 +10,7 @@ from numpy import array
 from pandas import read_csv
 
 email_regex = r"^([\w\.]+@[\w]+\.[a-zA-Z]+)$"
-clear_regex = r"\"|\'|[\[\]\(\)\{\}]|nan|`|\B:\B|\B/{2,}|\B//\w\B|^\?\B"
+clear_regex = r"\"|\'|[\[\]\(\)\{\}]|nan|`|\B:\B|\B/{2,}|\B//\w\B|^\?\B|\B\?\B"
 
 
 @command()
